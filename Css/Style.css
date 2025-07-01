@@ -1,0 +1,137 @@
+:root {
+    --pagefont:  'Arial', 'Helvetica', 'sans-serif';
+}
+
+body {
+    background-color: #24353F;
+}
+
+header>h1 {
+    font-family: var(--pagefont);
+    color: #17A2B8;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+.login-card,
+.signup-card,
+.welcome-container {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#formGroupExampleInput1.form-control,
+#formGroupExampleInput2.form-control,
+#formGroupExampleInput3.form-control,
+#formGroupExampleInput4.form-control,
+#formGroupExampleInput5.form-control {
+    border: 1px solid #ced4da;
+    background-color: #24353F;
+    color: #fff;
+}
+
+#formGroupExampleInput1.form-control::placeholder,
+#formGroupExampleInput2.form-control::placeholder,
+#formGroupExampleInput3.form-control::placeholder,
+#formGroupExampleInput4.form-control::placeholder,
+#formGroupExampleInput5.form-control::placeholder {
+    color: #fff;
+    opacity: 0.7;
+    font-family: var(--pagefont);
+}
+#formGroupExampleInput1.form-control:focus,
+#formGroupExampleInput2.form-control:focus,
+#formGroupExampleInput3.form-control:focus,
+#formGroupExampleInput4.form-control:focus,
+#formGroupExampleInput5.form-control:focus{
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0 transparent ;
+}
+.login-button,
+.signup-button {
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+.parent-login button{
+    font-family: var(--pagefont);
+}
+.login-button.btn:hover,
+.signup-button.btn:hover {
+    background-color: #17A2B8;
+    border-color: #17a2b8;
+    color: white;
+}
+
+.login-button.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active,
+.signup-button.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.login-button:focus,
+.signup-button:focus{
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+}
+.sign-up>p,
+.sign-in>p{
+    color: white;
+    font-family: var(--pagefont);
+}
+.sign-up>p>a,
+.sign-in>p>a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--pagefont);
+}
+.sign-up>p>a:hover,
+.sign-in>p>a:hover{
+    text-decoration: underline;
+}
+.signup-button.btn:focus-visible,
+.signin-button.btn:focus-visible {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+.home-navbar{
+    background-color:#24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+}
+#logout-btn.btn-check:checked+#logout-btn.btn,
+#logout-btn.btn.active, #logout-btn.btn.show, #logout-btn.btn:first-child:active
+{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+#navbarNavDropdown>a:focus{
+    color: rgba(255, 255, 255, .75);
+}
+.logout-button{
+    color: white;
+    border-color: #ffc107; 
+    font-family: var(--pagefont);
+}
+.logout-button.btn:hover{
+        color: rgba(255, 255, 255, .75);
+}
+.logo a{
+    font-family: var(--pagefont);
+    color: white;
+}
+.logo>.navbar-brand:focus, 
+.logo>.navbar-brand:hover {
+color: white;
+}
+.welcome-container>p{
+    color: #17A2B8;
+    font-family: var(--pagefont);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+
+
